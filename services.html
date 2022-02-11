@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cook's Cookies</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <style>
+            h1 { background-image: url(cookies.jpg); }
+            h2 {
+                text-align: center;
+                font-size: 45px;
+            }
+            h3 { 
+                font-size: 30px;
+                text-align: center;
+            }
+            .left-col, .right-col {
+                text-align: center;
+                display:inline-block;
+                width: 49%;
+                margin: 0;
+            }
+            @media screen and (max-width: 850px){
+                .left-col, .right-col { width: 100%; }
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Cook's Cookies! </h1>
+        <div class="sidenav">
+            <a href="index.html">HOME</a>
+            <a href="contact.html">CONTACT</a>
+            <a class="active" href="services.html">SERVICES</a>
+        </div>
+        <div class="main">
+            <h2> Buy Our Best-Selling Cookies! </h2>
+            <div class='left-col'>
+                <h3> Chocolate Chip </h3>
+                <img src='chococookies.jpg' align='center'
+                     width='300' height='300'>
+                <h3> Snickerdoodles </h3>
+                <img src='snickerdoodles.jpg' align='center'
+                     width='300' height='300'>
+            </div>
+            <div class='right-col'>
+                <h3> Chocolate Crinkle </h3>
+                <img src='crinkle.jpg' align='center'
+                     width='300' height='300'>
+                <h3> Gingerbread </h3>
+                <img src='gingerbread.jpg' align='center'
+                     width='300' height='300'>
+            </div>
+            <h3> Contact us to ask about catering options! </h3>
+            <br/>
+            <br/>
+        </div>
+        <div class="footer">
+            <a href="contact.html">Do you like our website? Let us know!</a>
+        </div>
+    </body>
+</html>

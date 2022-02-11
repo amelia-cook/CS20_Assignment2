@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Serif;
+    background-color: rgba(247, 231, 185, 0.808);
+}
+
+p {
+    padding-left: 6px;
+}
+
+h1 {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 90px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    top: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 155px;
+    background-color: rgb(188, 108, 21);
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 12px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+.sidenav a:hover {
+    background-color: rgba(247, 231, 185, 0.808);
+    color: rgb(188, 108, 21);
+}
+
+.sidenav a.active {
+    background-color: rgb(248, 234, 198);
+    color: rgb(188, 108, 21);
+}
+
+.main {
+    margin-left: 160px;
+    /* font-size: 28px; */
+    padding-left: 6px;
+    margin-top: 166px;
+}
+
+@media screen and (max-height: 450px){
+    .sidenav { padding-top: 15px; }
+    .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 700px){
+    .footer { display: none; }
+}
+@media screen and (max-width: 623px){
+    .sidenav { margin-top: 100px; }
+    .sidenav a {font-size: 18px;}
+    .main { margin-top: 250px; }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(188, 108, 21);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footer a {
+    padding: 6px 6px 6px 12px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: rgb(255, 255, 255);
+}
